@@ -1,10 +1,10 @@
-# Data Representation Formats: JSON, YAML & more
+# Data Representation Formats: JSON, YAML & More
 
-This repository is an overview of some of the most common **data representation formats**: how they work, what they
-are typically used for and how to read and write them in **Python**.
+This repository is an overview of some of the most common **data representation formats**: how they work, what they are typically used for and how to read and write them in **Python**.
 
 The focus and the examples are designed for **Internet of Things (IoT)** and **Cyber-Physical Systems (CPS)**, where the
 way data is represented plays a key role: sensors, actuators, gateways, MQTT/CoAP messages, telemetry and HTTP APIs.
+
 At the same time, the repository also covers formats that are mainly used for other purposes, such as
 **configuration files**, **logs and datasets** and **application settings**, which are part of almost any software
 system.
