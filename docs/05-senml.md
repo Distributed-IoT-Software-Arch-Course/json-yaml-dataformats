@@ -3,8 +3,6 @@
 This document introduces SenML, an IETF standard for representing **sensor measurements and device parameters**,
 and shows how to create and parse SenML messages in Python using the standard `json` module.
 
-[⬅ Previous: CSV](04-csv.md) · [Back to README](../README.md) · [Next: CBOR ➡](06-cbor.md)
-
 - [What is SenML](#what-is-senml)
 - [Why a standard for measurements](#why-a-standard-for-measurements)
 - [SenML fields](#senml-fields)
@@ -307,7 +305,3 @@ representations, which are less commonly used in practice.
 - Base fields are "sticky": they apply to all the following records until redefined.
 - A record is expected to contain exactly one value field (`v`, `vs`, `vb`, `vd`) or a sum `s`.
 - Using the specific media type `application/senml+json` helps receivers know how to interpret the payload.
-
----
-
-[⬅ Previous: CSV](04-csv.md) · [Back to README](../README.md) · [Next: CBOR ➡](06-cbor.md)

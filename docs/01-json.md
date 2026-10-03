@@ -3,8 +3,6 @@
 This document introduces JSON and Python's built-in `json` module using examples from the IoT world
 (sensors, actuators, gateways and smart homes).
 
-[⬅ Back to README](../README.md) · [Next: YAML ➡](02-yaml.md)
-
 - [What is JSON](#what-is-json)
 - [Basic components of JSON](#basic-components-of-json)
 - [Where JSON is used in IoT](#where-json-is-used-in-iot)
@@ -385,7 +383,3 @@ A syntactically valid JSON can still have missing fields or wrong types: see [Da
 - **Floats**: `NaN` and `Infinity` are produced by Python but are not valid standard JSON (use `allow_nan=False` to
   detect them); floating-point precision may differ between languages.
 - Opening files with an explicit `encoding="utf-8"` is recommended, to avoid platform-dependent defaults.
-
----
-
-[⬅ Back to README](../README.md) · [Next: YAML ➡](02-yaml.md)

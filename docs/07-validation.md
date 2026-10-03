@@ -3,8 +3,6 @@
 This document introduces the concept of **data validation**, explains why it is particularly important in distributed IoT systems,
 and shows how to validate JSON messages and YAML configuration files in Python using **JSON Schema**.
 
-[⬅ Previous: CBOR](06-cbor.md) · [Back to README](../README.md) · [Next: Formats Comparison ➡](08-comparison.md)
-
 - [Why validate data](#why-validate-data)
 - [Three levels of validation](#three-levels-of-validation)
 - [Where to validate](#where-to-validate)
@@ -370,7 +368,3 @@ Some commonly recommended practices:
   can evolve without breaking existing consumers.
 - Keeping schemas in **separate files** shared between producers and consumers, and using them in automated tests.
 - Reporting errors with the **path** of the wrong field: it can save a lot of debugging time.
-
----
-
-[⬅ Previous: CBOR](06-cbor.md) · [Back to README](../README.md) · [Next: Formats Comparison ➡](08-comparison.md)

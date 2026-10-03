@@ -3,8 +3,6 @@
 This document introduces TOML, a configuration format designed to be simple and unambiguous, and shows how to read it
 with Python's built-in `tomllib` module (and write it with `tomli-w`).
 
-[⬅ Previous: YAML](02-yaml.md) · [Back to README](../README.md) · [Next: CSV ➡](04-csv.md)
-
 - [What is TOML](#what-is-toml)
 - [Syntax](#syntax)
 - [Where TOML is used](#where-toml-is-used)
@@ -221,7 +219,3 @@ YAML is usually preferred for **deeply nested** configurations or when the ecosy
 - There is no `null`: `tomli_w` cannot serialize `None` values, so those keys are usually removed before writing.
 - A table can be defined only once: repeating `[mqtt]` twice in the same file is an error.
 - Keys after a `[table]` header belong to that table until the next header: it is common practice to put top-level keys **before** any table.
-
----
-
-[⬅ Previous: YAML](02-yaml.md) · [Back to README](../README.md) · [Next: CSV ➡](04-csv.md)

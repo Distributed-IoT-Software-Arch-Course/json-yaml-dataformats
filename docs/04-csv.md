@@ -3,8 +3,6 @@
 This document introduces CSV, one of the simplest formats for **tabular data** such as telemetry logs and datasets,
 and shows how to read and write it with Python's built-in `csv` module.
 
-[⬅ Previous: TOML](03-toml.md) · [Back to README](../README.md) · [Next: SenML ➡](05-senml.md)
-
 - [What is CSV](#what-is-csv)
 - [Syntax](#syntax)
 - [Where CSV is used in IoT](#where-csv-is-used-in-iot)
@@ -213,7 +211,3 @@ print(df.groupby("device_id")["value"].mean())
   delimiter and `,` as decimal separator (`21,5`). `csv.reader(f, delimiter=";")` can be used in these cases.
 - Opening files with `newline=""` and an explicit `encoding="utf-8"` is recommended.
 - Keeping the column order fixed is usually a good idea (e.g., `DictWriter` with an explicit `fieldnames` list).
-
----
-
-[⬅ Previous: TOML](03-toml.md) · [Back to README](../README.md) · [Next: SenML ➡](05-senml.md)

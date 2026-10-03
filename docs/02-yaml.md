@@ -3,8 +3,6 @@
 This document introduces YAML, one of the formats most commonly used for **configuration files**, and shows how to read and write it
 in Python with the PyYAML library.
 
-[⬅ Previous: JSON](01-json.md) · [Back to README](../README.md) · [Next: TOML ➡](03-toml.md)
-
 - [What is YAML](#what-is-yaml)
 - [Basic syntax](#basic-syntax)
 - [Advanced features](#advanced-features)
@@ -335,7 +333,3 @@ print(yaml.safe_load("country: NO\nversion: 1.10\nenabled: on"))
 print(yaml.safe_load('country: "NO"\nversion: "1.10"\nenabled: "on"'))
 # Output: {'country': 'NO', 'version': '1.10', 'enabled': 'on'}
 ```
-
----
-
-[⬅ Previous: JSON](01-json.md) · [Back to README](../README.md) · [Next: TOML ➡](03-toml.md)

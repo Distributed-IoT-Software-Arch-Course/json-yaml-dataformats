@@ -3,8 +3,6 @@
 This document introduces CBOR, a **binary** data format based on the JSON data model, designed for constrained devices
 and networks, and shows how to use it in Python with the `cbor2` library.
 
-[⬅ Previous: SenML](05-senml.md) · [Back to README](../README.md) · [Next: Data Validation ➡](07-validation.md)
-
 - [What is CBOR](#what-is-cbor)
 - [Why a binary format](#why-a-binary-format)
 - [Data model and types](#data-model-and-types)
@@ -237,7 +235,3 @@ print(senml_from_cbor(senml_cbor) == pack)       # Output: True
 - Not every CBOR value can be converted to JSON (byte strings, integer keys, tags): conversions need some care.
 - Both sides need to agree on conventions (e.g., integer key mapping, date representation), just like with JSON.
 - For tiny devices it is worth checking which features are supported by the embedded library (e.g., floats, tags, indefinite lengths).
-
----
-
-[⬅ Previous: SenML](05-senml.md) · [Back to README](../README.md) · [Next: Data Validation ➡](07-validation.md)

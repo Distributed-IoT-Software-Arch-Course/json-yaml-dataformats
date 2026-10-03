@@ -3,8 +3,6 @@
 This document puts the formats side by side, representing the **same data** in each of them, and provides a quick
 guide to help choose among them.
 
-[⬅ Previous: Data Validation](07-validation.md) · [Back to README](../README.md)
-
 - [The same configuration in different formats](#the-same-configuration-in-different-formats)
 - [The same measurements in different formats](#the-same-measurements-in-different-formats)
 - [Feature comparison](#feature-comparison)
@@ -160,7 +158,3 @@ Whatever the format, it is generally good practice to define a **schema**, **val
 | CSV | built-in | `csv.DictReader(f)` | `csv.DictWriter(f, fieldnames)` | text, `newline=""` |
 | SenML | – | `json.loads(s)` + resolve records | `json.dumps(pack)` | text |
 | CBOR | `pip install cbor2` | `cbor2.load(f)` / `cbor2.loads(b)` | `cbor2.dump(obj, f)` / `cbor2.dumps(obj)` | **binary** |
-
----
-
-[⬅ Previous: Data Validation](07-validation.md) · [Back to README](../README.md)
